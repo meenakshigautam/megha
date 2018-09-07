@@ -59,6 +59,8 @@ import java.util.Map;
 
 
    public class HomeFragment extends Fragment
+
+
      {
 
 
@@ -79,7 +81,7 @@ import java.util.Map;
         view = inflater.inflate(R.layout.fragment_home, container, false);
 
 
-
+        Toast.makeText(getActivity(),"vikas",Toast.LENGTH_SHORT).show();
         return view;
 
 
