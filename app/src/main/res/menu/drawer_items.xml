@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+     <item android:title="My Account">
+
+
+
+          <menu>
+            <item
+                android:id="@+id/myOrders"
+                android:title="Task"
+                />
+
+
+            <item
+                android:id="@+id/myEarnings"
+                android:title="Earnings"
+                />
+
+
+            <item
+                android:id="@+id/profile"
+                android:title="Profile"
+                          />
+
+
+              <item
+                  android:id="@+id/settings"
+                  android:title = "Settings"
+                  />
+
+              <item
+                  android:id="@+id/rating"
+                  android:title = "Rating"
+                  />
+
+
+
+              <item
+                android:id="@+id/help"
+                android:title="Help"
+               android:visible="false"
+                  />
+
+
+            <item
+                android:id="@+id/logout"
+                android:title="Logout"
+                />
+
+
+
+        </menu>
+        </item>
+
+
+<!--    <item android:title="Support">
+        <menu>
+            <item
+                android:id="@+id/faq"
+                android:title="FAQ" />
+
+            <item
+                android:id="@+id/email"
+
+                android:title="Email" />
+
+            <item
+                android:id="@+id/call"
+
+                android:title="Call" />
+
+            <item
+                android:id="@+id/whatsapp"
+
+                android:title="WhatsApp" />
+        </menu>
+    </item>
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/share"
+
+                android:title="Share" />
+            <item
+                android:id="@+id/rateApp"
+
+                android:title="Rate App" />
+            <item
+                android:id="@+id/appInfo"
+
+                android:title="App Info" />
+        </menu>
+    </item>-->
+</menu>

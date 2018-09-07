@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/primarytextcolor"
+        >
+
+
+
+        <TextView
+            android:id="@+id/profiletext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:textSize="16dp"
+            />
+
+
+
+
+        <ImageView
+            android:id = "@+id/backiconimage"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:layout_centerVertical = "true"
+            android:layout_marginLeft = "10dp"
+            android:padding = "10dp"
+            android:background = "@drawable/left_arrow"
+            android:layout_alignParentLeft = "true"
+            />
+
+
+
+        <TextView
+            android:id = "@+id/title"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:text = ""
+            android:textColor="#FFFFFF"
+            android:layout_centerInParent = "true"
+            android:layout_centerVertical = "true"
+            android:textSize = "18dp"
+            android:textStyle = "italic"
+            />
+
+
+
+
+        <ImageView
+            android:id="@+id/carticonimage"
+            android:layout_width = "wrap_content"
+            android:layout_height = "match_parent"
+            android:layout_alignParentRight = "true"
+            android:padding = "10dp"
+            android:layout_marginRight = "5dp"
+            android:layout_centerVertical="true"
+            android:visibility="gone"
+            />
+
+
+    </RelativeLayout>
+
+
+
+    <TextView
+        android:id="@+id/comingsoontext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coming Soon"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:layout_marginTop = "220dp"
+        android:textSize = "28dp"
+
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

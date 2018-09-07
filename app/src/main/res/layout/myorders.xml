@@ -1,0 +1,130 @@
+ <RelativeLayout
+    android:id="@+id/main_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <!--<android.support.v7.widget.Toolbar
+          android:id="@+id/toolbar"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentTop="true"
+          android:background="?attr/colorPrimary"
+          android:elevation="6dp"
+          android:minHeight="?attr/actionBarSize"
+          android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+          app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+          android:visibility="gone"
+          />-->
+
+
+    <TextView
+        android:id="@+id/logintext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:visibility="gone"
+        />
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/primarytextcolor"
+        >
+
+
+
+        <TextView
+            android:id="@+id/profiletext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Orders"
+            android:textColor="#FFFFFF"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:textSize="16dp"
+            />
+
+
+
+
+        <ImageView
+            android:id="@+id/backiconimage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            android:background = "@drawable/left_arrow"
+            android:layout_alignParentLeft="true"
+            />
+
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:textSize="18dp"
+            android:textStyle="italic"
+            />
+
+
+
+
+        <ImageView
+            android:id="@+id/carticonimage"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:padding="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_centerVertical="true"
+            android:visibility="gone"
+            />
+
+
+       </RelativeLayout>
+
+
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:elevation="6dp"
+        android:minHeight = "?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:layout_marginTop = "48dp"
+        app:tabTextColor="@color/primarytextcolor"
+        app:tabSelectedTextColor="@color/white"
+        app:tabBackground="@drawable/tab_selector"
+        android:background="@color/colorNormal"
+        />
+
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/tab_layout"
+        />
+
+
+
+</RelativeLayout>

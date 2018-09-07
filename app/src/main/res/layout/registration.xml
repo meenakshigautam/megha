@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+   <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <!--<TextView
+        android:id="@+id/addresstext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        />-->
+
+
+
+       <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/address1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#808080"
+        android:layout_marginTop = "15dp"
+        >
+
+
+        <EditText
+            android:id="@+id/firstnameedittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="First Name"
+            android:maxLines="1"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/nametext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#808080"
+        android:layout_marginTop = "15dp"
+        >
+
+
+        <EditText
+            android:id="@+id/nameedittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Last Name"
+            android:maxLines="1"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/phonetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#808080"
+        android:layout_marginTop = "15dp"
+        >
+
+
+        <EditText
+            android:id="@+id/phonedittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone"
+            android:maxLines="1"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/emailtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#808080"
+        android:layout_marginTop = "15dp"
+        >
+
+
+        <EditText
+            android:id="@+id/emailedittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Alternate Contact No"
+            android:maxLines="1"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/dobtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#808080"
+        android:layout_marginTop = "15dp"
+        >
+
+
+        <EditText
+            android:id="@+id/dobedittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="DOB"
+            android:maxLines="1"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        >
+
+
+    </Spinner>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/bloodgrouptext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#808080"
+        android:layout_marginTop = "15dp"
+        >
+
+
+        <EditText
+            android:id="@+id/bloodedittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Blood Group"
+            android:maxLines="1"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/addresstext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#808080"
+        android:layout_marginTop = "15dp"
+        >
+
+
+        <EditText
+            android:id="@+id/addressedittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:maxLines="1"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        >
+
+
+    </Spinner>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/pintext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#808080"
+                android:layout_marginTop = "15dp"
+                >
+
+
+                <EditText
+                    android:id="@+id/pinedittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Pin"
+                    android:maxLines="1"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/aadhartext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#808080"
+                android:layout_marginTop = "15dp"
+                >
+
+
+                <EditText
+                    android:id="@+id/adhaaredittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Aadhaar No"
+                    android:maxLines="1"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+
+            <RelativeLayout
+                    android:id="@+id/relativelayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+
+               <Button
+                   android:id="@+id/button43"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Choose Image"
+                   />
+
+
+                <ImageView
+                    android:id="@+id/image432"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/button43"
+                    />
+
+                </RelativeLayout>
+
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/dltext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#808080"
+                android:layout_marginTop = "15dp"
+                >
+
+
+                <EditText
+                    android:id="@+id/dledittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="dl no"
+                    android:maxLines="1"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+
+            <RelativeLayout
+                android:id="@+id/relativelayouttwo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+
+                <Button
+                    android:id="@+id/button44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Choose Image"
+                    />
+
+
+                <ImageView
+                    android:id="@+id/image433"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/button44"
+                    android:layout_marginLeft="2dp"
+                    />
+
+            </RelativeLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/dlexpirytext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#808080"
+                android:layout_marginTop = "15dp"
+                >
+
+
+                <EditText
+                    android:id="@+id/dlexpiryedittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="dl expiry"
+                    android:maxLines="1"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/vehicletypetext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#808080"
+                android:layout_marginTop = "15dp"
+                >
+
+
+                <EditText
+                    android:id="@+id/vehicletypeedittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="vehicle type"
+                    android:maxLines="1"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/vehicleregdetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#808080"
+                android:layout_marginTop = "15dp"
+                >
+
+
+                <EditText
+                    android:id="@+id/vehicleregdetailedittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="vehicle type"
+                    android:maxLines="1"
+                    />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+
+
+
+
+
+
+
+
+            <RelativeLayout
+                android:id="@+id/relativelayoutthree"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+
+                <Button
+                    android:id="@+id/button46"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Choose Image"
+                    />
+
+
+                <ImageView
+                    android:id="@+id/image434"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/button46"
+                    android:layout_marginLeft="2dp"
+                    />
+
+            </RelativeLayout>
+
+
+            <Button
+        android:id="@+id/button1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_marginTop="18dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"
+        />
+
+
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+     </LinearLayout>

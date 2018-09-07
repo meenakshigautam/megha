@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    >
+
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Sign in to your account!"
+        android:textSize="23dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="60dp"
+        android:textColor="@color/primarytextcolor"
+        />
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_login_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColorHint="@color/primarytextcolor"
+        app:theme="@style/MyStyle"
+        android:minHeight="30dp"
+        app:hintTextAppearance="@style/TextLabel"
+        >
+
+
+
+        <EditText
+            android:id="@+id/et_login_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:backgroundTint="@color/primarytextcolor"
+            android:hint="Email"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress"
+            android:paddingBottom="15dp"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            android:textColor="@color/primarytextcolor"
+            android:textColorHint="@color/primarytextcolor"
+            android:textSize="15sp"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColorHint="@color/primarytextcolor"
+        app:theme="@style/MyStyle"
+        android:minHeight="30dp"
+        app:hintTextAppearance="@style/TextLabel"
+        android:layout_marginTop="25dp"
+        >
+
+
+
+        <EditText
+            android:id="@+id/et_login_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:backgroundTint="@color/primarytextcolor"
+            android:hint="Password"
+            android:imeOptions="actionNext"
+            android:inputType = "textPassword"
+            android:paddingBottom="15dp"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            android:textColor="@color/primarytextcolor"
+            android:textColorHint="@color/white"
+            android:textSize="15sp"
+            />
+
+
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <TextView
+        android:id="@+id/forgotpasswordtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:layout_gravity="right"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/colorPrimary"
+        android:visibility="gone"
+        />
+
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:layout_marginTop="18dp"
+        android:layout_gravity="center"
+        android:background="@color/primarytextcolor"
+        android:textColor="#FFFFFF"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:visibility="gone"
+        >
+
+
+        <TextView
+            android:id="@+id/newusertext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New User ?Sign Up"
+            android:textSize="20dp"
+            />
+
+
+
+        <TextView
+            android:id="@+id/signuptext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/colorPrimary"
+            android:visibility="gone"
+            android:textSize="15dp"
+            />
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

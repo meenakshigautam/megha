@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "597109828035",
+    "firebase_url": "https://notificationdemo-7784d.firebaseio.com",
+    "project_id": "notificationdemo-7784d",
+    "storage_bucket": "notificationdemo-7784d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597109828035:android:47493abacee6b490",
+        "android_client_info": {
+          "package_name": "com.example.hp.ourassignmentapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "597109828035-gm6th95g01jhdpt47qvtkgsq27phd3p5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAYIlb0CQ3dU1CQ0CVBbCH9hFqk00FkbY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
